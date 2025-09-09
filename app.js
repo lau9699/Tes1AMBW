@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('/Tes1AMBW/sw.js')
       .then(registration => {
         console.log('Service Worker berhasil didaftarkan dengan scope:', registration.scope);
       })
@@ -8,4 +8,5 @@ if ('serviceWorker' in navigator) {
         console.log('Pendaftaran Service Worker gagal:', error);
       });
   });
+
 }

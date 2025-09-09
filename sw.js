@@ -1,4 +1,4 @@
-const CACHE_NAME = 'recipe-app-cache-v2';
+const CACHE_NAME = 'recipe-app-cache-v1';
 const urlsToCache = [
   './',
   './index.html',
@@ -59,4 +59,5 @@ self.addEventListener('fetch', event => {
       console.error('[Service Worker] Fetch gagal:', err);
     })
   );
+
 });

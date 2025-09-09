@@ -1,15 +1,15 @@
 const CACHE_NAME = 'recipe-app-cache-v1';
 const urlsToCache = [
-  './',
-  './index.html',
-  './style.css',
-  './app.js',
-  './icons/icon-48x48.png',
-  './icons/icon-72x72.png',
-  './icons/icon-96x96.png',  
-  './icons/icon-192x192.png',
-  './icons/icon-512x512.png',
-  './icons/recipe.png', 
+  '/',
+  '/index.html',
+  '/style.css',
+  '/app.js',
+  '/icons/icon-48x48.png',
+  '/icons/icon-72x72.png',
+  '/icons/icon-96x96.png',  
+  '/icons/icon-192x192.png',
+  '/icons/icon-512x512.png',
+  '/icons/recipe.png', 
 ];
 
 self.addEventListener('install', event => {
@@ -61,3 +61,4 @@ self.addEventListener('fetch', event => {
   );
 
 });
+
